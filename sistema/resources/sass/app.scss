@@ -1,0 +1,43 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bg-gra-main {
+    background: rgb(83,143,139);
+    background: linear-gradient(180deg, rgba(83,143,139,1) 0%, rgba(10,50,73,1) 100%);
+}
+
+#app {
+    height: 100%;
+}
+
+table.text-vertical-center th,
+table.text-vertical-center td {
+    vertical-align: middle !important;
+}
+
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+
+.bg-main {
+    background-color: #203346 !important;
+}
+
+.main-color-button {
+    background-color: #DDCC05 !important;
+    color: white !important;
+}
+
+.full_absolute {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.no-overflow {
+    overflow: hidden !important;
+}
